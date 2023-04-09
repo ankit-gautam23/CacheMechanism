@@ -1,1 +1,8 @@
 
+For a relational database, there are multiple level of caching are available. 
+
+- WAL(Write Ahead Log): Data is being written in the WAL before being indexed to the B-Tree.
+- Bufferpool: It is a memory area which is used to cache the query result.
+- Materialized View: It can cache the precomputed query results for faster query performance.
+- Transaction Log: It caches all the transaction logs and updates of a database.
+- Replication Log: It basically tracks and caches the replication state in a database cluster. 
