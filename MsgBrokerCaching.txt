@@ -1,1 +1,7 @@
 
+Caching not always needs to be in the memory. A messaging infrastructure or message broker such as Kafka can cache a massive amount of messages on disk.
+
+This allows the consumer to retrive the messages at their own pace. The messages can be cached for a long period of time based on the retention policy. 
+
+
+PRODUCER     ---->     N(BROKER)    --->     CONSUMER
