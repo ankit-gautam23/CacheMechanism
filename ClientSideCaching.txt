@@ -1,1 +1,2 @@
 
+On the application frontend, web browsers can cache http responses to enable faster retrival of data. When we request data over http for the first time and it is returned with some expiration policy in http header. We request the same data again and the browser returns the data from its cache if it available.
