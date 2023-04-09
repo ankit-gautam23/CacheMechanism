@@ -1,1 +1,4 @@
 
+Static Data Caching is widely used to improve the delivery of static content. CDN(Content Delivery Network) plays a vital role in it. It can cache stuff like images, videos, and other web access. 
+
+One of the way CDN speed up content delivery is through caching: When a user request content from the CDN, It will look into its cache, if the content is not there in the cache then the CDN fetches it from the origin server and caches it on its edge servers. When same request comes again from same or different client, it basically gives response from its cache eliminating the need to fetch the data from the origin server.
