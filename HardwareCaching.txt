@@ -1,0 +1,14 @@
+From frontend to backend, caching plays a crucial role in improving the efficiency of various applications/systems.
+
+There are various strategies and mechanism to do caching data, depending on the requirements and the constraints of the specific application/system.
+
+HardawareCaches are L1, L2 and L3
+
+smallest and fastest cache - L1(KB) > L2(MB) > L3. Here L1 is the smallest and fastest cache in any computer hardware.
+
+Another hardware cache is TLB(Translation Lookaside Buffer): stores recently used virtual to physical address translations. Often used by the CPU to convert virtual memory addresses to physical memory addresses. Reducing the time needed to access data from memory.
+
+At OS level- 
+1. File System Cache 
+2. Page Cache : Page Cache is managed by the operating system and resides in the main memory. It is used to store recently used disk blocks in memory. Program can get data directly from memory(if present) rather than asking the disk for it.
+3. Inode Cache : These caches are used to speed up the file system operations by reducing the number of disk acesses which is required to access files and directories.
