@@ -1,1 +1,4 @@
 
+Distributed caching such as Redis can store key value pairs in the memory providing high speed read/write performance compared to traditional databases.
+
+Indexed cache such as Elastic Search can index data for document search and log search providing quick and efficient access to specific data.
