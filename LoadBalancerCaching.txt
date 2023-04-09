@@ -1,1 +1,4 @@
 
+Some load balancers can cache the resources to reduce the load on the backend servers.
+
+When a user request some resource from a server behind a load balancer. The load balancer can cache response and can serve it directly to future users who request the same content. This can improve response time and can reduce the load on backend servers.
