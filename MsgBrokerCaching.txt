@@ -5,3 +5,14 @@ This allows the consumer to retrive the messages at their own pace. The messages
 
 
 PRODUCER     ---->     N(BROKER)    --->     CONSUMER
+
+
+Why message brokers are needed? 
+
+Ans: Message brokers play a crucial role when building distributed systems or microservices to improve their performance, scalability, and maintainability.It is very useful for long term project where load can be expected at any point of time. 
+ 
+- Decoupling: Message brokers promote independent development, deployment, and scaling by creating a separation between software components. The result is easier maintenance and troubleshooting.  
+- Asynchronous communication: A message broker allows components to communicate without waiting for responses, making the system more efficient and enabling effective load balancing.  
+- Message brokers ensure that messages are not lost during component failures by providing buffering and message persistence.  
+- Scalability: Message brokers can manage a high volume of messages, allowing your system to scale horizontally by adding more instances of the message broker as needed.  
+ 
