@@ -1,6 +1,8 @@
+In-memory caching involves storing data in the memory of the application rather than on disk or in a database. This can be useful when you need to access the same data frequently and don't want to incur the overhead of making repeated database calls. In-memory caching can be implemented using a variety of data structures, such as hash tables or maps.
 
 Data architects are not limited to caching in key-value caching systems. They can also take advantage of in-memory computing solutions that offer SQL support. This includes fully advanced indexing capabilities, such as having multiple secondary indexes, as well as index by exact match, ranges, compound, texts and geo-spatial data fields.
 
 Additionally, some caching solutions support full SQL APIs, which enable a more flexible slice and dice of the data and easy migration from the primary data store.
 
 They also provide both advanced indexing and SQL support, allowing for easy on-demand analytics and BI reporting. Without SQL support or advanced indexing, aggregations must be predefined for satisfactory performance, which involves a great deal of coding.
+
